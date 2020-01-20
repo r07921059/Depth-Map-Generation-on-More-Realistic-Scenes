@@ -22,15 +22,19 @@ python3 main.py --input=data --output=output
 data為當前目錄下的資料夾, output會自動產生在當前目錄
 ```
 
-### Some results
-        * Result for Synthetic TL0/TR0
+### Cherry Pick
 
-| Ground Truth  | PSMNet Result |
-| ------------- | ------------- |
+* Result for Synthetic 
+
+| Ground Truth | Our Result |
+|-------------|-------------|
 |![](https://i.imgur.com/0DMubSu.png)|![](https://i.imgur.com/5Mh0wzE.png)|
 
+* Result for Real(hava not ground truth) 
 
-
+| Our Result |  
+|-------------|  
+|![](https://i.imgur.com/odIHaAy.png)|
 
 
 
