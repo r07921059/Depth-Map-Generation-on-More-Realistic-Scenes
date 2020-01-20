@@ -22,6 +22,20 @@ python3 main.py --input=data --output=output
 data為當前目錄下的資料夾, output會自動產生在當前目錄
 ```
 
+### Some results
+        * Result for Synthetic TL0/TR0
+
+| Ground Truth  | PSMNet Result |
+| ------------- | ------------- |
+|![](https://i.imgur.com/0DMubSu.png)|![](https://i.imgur.com/5Mh0wzE.png)|
+
+
+
+
+
+
+
+
 
 
 ### Citation
@@ -45,24 +59,9 @@ data為當前目錄下的資料夾, output會自動產生在當前目錄
     * https://arxiv.org/abs/1703.04309
     * https://github.com/kelkelcheng/GC-Net-Tensorflow (tensorflow)
     * https://github.com/zyf12389/GC-Net (pytorch)
-
 * Pyramid Stereo Matching Network (PSMNet - CVPR 2018)
     * https://arxiv.org/abs/1803.08669
     * https://github.com/JiaRenChang/PSMNet (Pytorch)
-        * Result for Synthetic TL0/TR0
-
-| Ground Truth  | PSMNet Result |
-| ------------- | ------------- |
-|![](https://i.imgur.com/0DMubSu.png)|![](https://i.imgur.com/5Mh0wzE.png)|
-
-
-
-
-
-
-
-
-
 * GA-Net: Guided Aggregation Net for End-to-end Stereo Matching (GANet - CVPR2019)
     * https://arxiv.org/pdf/1904.06587.pdf
     * https://github.com/feihuzhang/GANet
